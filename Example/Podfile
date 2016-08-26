@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'HideableTabBar_Example' do
+  pod 'HideableTabBar', :path => '../'
+
+  target 'HideableTabBar_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
